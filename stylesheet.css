@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: auto;
+    font-weight: bold;
+    color: gray;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: black;
+}
+header {
+    width:auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+footer {
+    width:auto;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:20px;
+}

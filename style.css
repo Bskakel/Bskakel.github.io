@@ -1,0 +1,44 @@
+header {
+    width:auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+left{
+    background-color:#eeeeee;
+    height: 500px;
+    width:50%;
+    float:left;
+    text-align:center;
+
+}
+
+#pic1{
+  max-width:300px;
+  height:auto;
+}
+right{
+    width:50%;
+    height: 500px;
+    float:right;
+    text-align:center;
+    background-color:#d3d3d3;
+
+}
+footer {
+    width:auto;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:20px;
+}
+a:hover {
+    background-color: black;
+}
+
+img
+{
+ border-color: grey;
+}
