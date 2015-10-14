@@ -3,10 +3,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+
 }
 
 li {
     float: left;
+    width: 20%;
 }
 
 a:link, a:visited {
@@ -16,9 +18,9 @@ a:link, a:visited {
     color: gray;
     background-color: gray;
     text-align: center;
-    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 a:hover, a:active {
