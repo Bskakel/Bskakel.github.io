@@ -6,6 +6,7 @@ header {
     padding:5px;
 }
 left{
+    opacity: .75;
     background-color:#eeeeee;
     height: 500px;
     width:50%;
@@ -19,6 +20,7 @@ left{
   height:auto;
 }
 right{
+    opacity: .75;
     width:50%;
     height: 500px;
     float:right;
