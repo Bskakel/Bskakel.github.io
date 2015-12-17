@@ -27,10 +27,14 @@ li {
 }
 
 .dropdown-toggle{
-      
+
 
 }
-
+.dropdown-menu{
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+}
 a:link, a:visited {
     display: block;
     width: auto;
