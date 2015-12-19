@@ -35,6 +35,19 @@ li {
   z-index: 1;
   width: 20%;
 }
+
+.dropdown-menu2{
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+}
+
+.dropdown-menu3{
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+}
+
 a:link, a:visited {
     display: block;
     width: auto;
