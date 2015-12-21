@@ -4,7 +4,7 @@ $('.dropdown-menu').hide();
 $('.dropdown-menu2').hide();
 $('.dropdown-menu3').hide();
 
-$('.dropdown-toggle').click(function() {
+$('.dropdown-toggle').hover(function() {
     $('.dropdown-menu').toggle();
 });
 
