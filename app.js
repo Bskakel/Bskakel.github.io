@@ -4,15 +4,27 @@ $('.dropdown-menu').hide();
 $('.dropdown-menu2').hide();
 $('.dropdown-menu3').hide();
 
-$('.dropdown-toggle').click(function() {
+$('.dropdown-toggle').hover(function() {
     $('.dropdown-menu').toggle();
 });
 
-$('.dropdown-toggle2').click(function() {
+$('.cell').hover(function() {
+    $('.dropdown-menu').toggle();
+});
+
+$('.dropdown-toggle2').hover(function() {
     $('.dropdown-menu2').toggle();
 });
 
-$('.dropdown-toggle3').click(function() {
+$('.cell2').hover(function() {
+    $('.dropdown-menu2').toggle();
+});
+
+$('.dropdown-toggle3').hover(function() {
+    $('.dropdown-menu3').toggle();
+});
+
+$('.cell3').hover(function() {
     $('.dropdown-menu3').toggle();
 });
 
