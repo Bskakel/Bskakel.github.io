@@ -15,7 +15,7 @@ body{
 }
 
 .spacer{
-  background-color: blue;
+  background-color: slategrey;
 }
 
 .nodot{
@@ -85,7 +85,7 @@ Hero
 Main Section
 **************************************************************************** */
 .main{
-  background-color: grey;
+  background-color: slategrey;
   opacity: .9;
 }
 
