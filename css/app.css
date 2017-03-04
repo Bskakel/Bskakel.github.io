@@ -24,6 +24,22 @@ body{
 
 .links{
   color: white;
+
+}
+
+footer a:hover{
+display: block;
+color:rgba(255,255,255,0.5);
+}
+
+footer hr{
+  margin: 10px 0;
+}
+
+footer span{
+  font-weight: bold;
+  color: grey;
+  opacity: 0.8;
 }
 
 .link{
