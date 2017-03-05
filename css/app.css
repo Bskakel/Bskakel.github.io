@@ -10,6 +10,17 @@ body{
 
 }
 
+.face{
+  max-width: 50%;
+}
+
+.gtl{
+  max-width: 100%;
+  border: 10px;
+  border-color: black;
+  border-style: ridge;
+}
+
 .break{
   opacity: 0.0;
 }
@@ -27,32 +38,35 @@ body{
 
 }
 
-footer a:hover{
-display: block;
-color:rgba(255,255,255,0.5);
-}
-
-footer hr{
-  margin: 10px 0;
-}
-
-footer span{
-  font-weight: bold;
-  color: grey;
-  opacity: 0.8;
-}
-
 .link{
   color: black;
 }
 
-
+.off-canvas{
+  background-color: black;
+}
 /* ***************************************************************************
 Nav
 **************************************************************************** */
 
+.sidebar{
+  float: none;
+  list-style-type: none;
+}
+
+#mobilemenu a{
+  display: block;
+  color: white;
+  padding: 10%;
+  border: none;
+}
+
+#mobilemenu a:hover{
+  background-color: slategrey;
+}
+
 @media (max-width:700px) {
-  .nav-desktop {
+  .nav-desktop, .gtl {
     display: none;
   }
 }
@@ -132,4 +146,20 @@ footer {
 
 footer a{
   display: block;
+}
+
+
+footer a:hover{
+display: block;
+color:rgba(255,255,255,0.5);
+}
+
+footer hr{
+  margin: 10px 0;
+}
+
+footer span{
+  font-weight: bold;
+  color: grey;
+  opacity: 0.8;
 }
