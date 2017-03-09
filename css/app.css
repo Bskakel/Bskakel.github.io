@@ -11,7 +11,7 @@ body{
 }
 
 .face{
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .gtl{
@@ -26,7 +26,11 @@ body{
 }
 
 .spacer{
-  background-color: slategrey;
+  background-color: #494E6B;
+}
+
+.mail{
+  max-width: 25%;
 }
 
 .nodot{
@@ -35,7 +39,10 @@ body{
 
 .links{
   color: white;
+}
 
+.gold{
+  border-color: gold;
 }
 
 .link{
@@ -62,7 +69,7 @@ Nav
 }
 
 #mobilemenu a:hover{
-  background-color: slategrey;
+  background-color: #C5C1C0;
 }
 
 @media (max-width:700px) {
@@ -77,19 +84,19 @@ Nav
 **************************************************************************** */
 
 .nav-desktop{
-background-color: #222;
+background-color: #22252C;
 height: 80px;
 padding: 0;
 }
 
 .site-logo {
   color:white;
-  background-color: #222;
+  background-color: #22252C;
   line-height: 80px;
 }
 
 .top-bar ul{
-  background-color: #222;
+  background-color: #22252C;
   line-height: 80px;
 }
 
@@ -110,8 +117,8 @@ background-color: #333;
 Hero
 **************************************************************************** */
 .hero {
-  background-color: rgba(200,200,200,.9);
-  padding: 50px 60px;
+  background-color: #C5C1C0;
+  padding: 20px 10px;
 
 }
 
@@ -121,7 +128,7 @@ Hero
 Main Section
 **************************************************************************** */
 .main{
-  background-color: slategrey;
+  background-color: #C5C1C0;
   opacity: .9;
 }
 
@@ -139,7 +146,7 @@ Footer
 
 footer {
 
-  background-color: #222;
+  background-color: #22252C;
   padding: 50px 60px;
   color: white;
 }
